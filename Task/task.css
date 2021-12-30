@@ -1,0 +1,38 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    background:lightgray;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:50px;
+    overflow:auto;
+}
+.items{
+    margin: 20px;
+}
+ul>li{
+    color:black;
+    font-weight:bold;
+    font-size:15px;
+    list-style-type:square;
+    
+}
+input{
+    color:white;
+    font-size:20px;
+    border:1px solid black;
+    margin-right:10px;
+    
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    
+}
+.form > #submit{
+    width: 100px;
+    margin-top: 10px;
+    background:red;
+    border-radius: 3px solid #0b6d20;
+}

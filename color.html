@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <style>
+        .container{
+            background:gray;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin:2rem
+
+
+        }
+        .red{
+            background:maroon;
+            width:5rem;
+            height:5rem;
+        }
+        .blue{
+            background:blue;
+            width:5rem;
+            height:5rem;
+            
+        }
+        .green{
+            background:green;
+            width:5rem;
+            height:5rem;
+        }
+        .yellow{
+            background:yellow;
+            width:5rem;
+            height:5rem;
+        }
+        h1{
+            font-weight: bold;
+            color:wheat
+        }
+    </style> -->
+    <script>
+        document.addEventListener("DOMContentLoaded",function(){
+            document.querySelector("select").onchange=function(){
+                document.querySelector("#hello").style.color=this.value;
+            }
+            // document.querySelectorAll("button").forEach(function(button){
+            //     button.onclick = function(){
+            //         document.querySelector("h1").style.color=button.dataset.color;
+            //     }
+            // })
+            // document.querySelector("#red").onclick=function(){
+            //     document.querySelector("h1").style.color="maroon"
+            // }    
+            // document.querySelector("#blue").onmouseover=function(){
+            //     document.querySelector("h1").style.color="blue"
+            // }    
+            // document.querySelector("#green").onmouseover=function(){
+            //     document.querySelector("h1").style.color="green"
+            // }
+            // document.querySelector("#yellow").onmouseover=function(){
+            //     document.querySelector("body").style.background="yellow"
+            // } 
+            // document.querySelector("body").onmouseout=function(){
+            //     document.querySelector("body").style.background="black"
+            // }
+        });
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="hello">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem odio perferendis dolores officia incidunt! Nihil minus ea ab facilis. Similique, repudiandae aliquam doloribus, veniam inventore tempore quisquam delectus tenetur ex perferendis dolorum. Quibusdam odit perferendis, voluptates dicta impedit dolores voluptatibus assumenda in enim facere at distinctio dolorem accusamus, expedita architecto.</h1>
+        <select name="" id="">
+            <option value="pink">Pink</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="maroon">Yellow</option>
+        </select>
+    </div>
+</body>
+</html>
